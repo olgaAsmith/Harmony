@@ -17,12 +17,8 @@ export default function LoginButton({ isMiniButton }: LoginButton) {
   return (
     <>
       {isMiniButton ? (
-        <Button
-          variant='outline'
-          onClick={handleSignIn}
-          className='flex items-center justify-center bg-transparent border-none '
-        >
-          <LogIn className='w-6 h-6 inline-block'></LogIn>
+        <Button title='Login' variant='icon' onClick={handleSignIn}>
+          <LogIn className='w-6 h-6 inline-block ease-in-out duration-300 hover:scale-125'></LogIn>
         </Button>
       ) : (
         <Button onClick={handleSignIn} className='m-8 w-[200px]'>

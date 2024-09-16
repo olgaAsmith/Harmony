@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import SideBarBox from './SideBarBox';
 import {
   CircleUserRound,
@@ -19,21 +20,33 @@ export default function SideBarMyInfo() {
       <SideBarBox>
         <ul className='flex flex-col gap-2'>
           <li className='flex gap-2 items-center'>
-            <Phone className='w-4 h-4'></Phone>07911 654321
+            <Link href='##' className='flex gap-2 items-center'>
+              <Phone className='w-4 h-4 ease-in-out duration-300 hover:scale-125'></Phone>
+              07911 654321
+            </Link>
           </li>
           <li className='flex gap-2 items-center'>
-            <Mail className='w-4 h-4'></Mail>avd.yana@videorollnet
+            <Link href='##' className='flex gap-2 items-center'>
+              <Mail className='w-4 h-4 ease-in-out duration-300 hover:scale-125'></Mail>
+              avd.yana@videorollnet
+            </Link>
           </li>
           <li className='flex gap-2 items-center'>
             <ul className='flex gap-2'>
               <li>
-                <Linkedin></Linkedin>
+                <Link href='##'>
+                  <Linkedin className='ease-in-out duration-300 hover:scale-125'></Linkedin>
+                </Link>
               </li>
               <li>
-                <Facebook></Facebook>
+                <Link href='##'>
+                  <Facebook className='ease-in-out duration-300 hover:scale-125'></Facebook>
+                </Link>
               </li>
               <li>
-                <Twitter></Twitter>
+                <Link href='##'>
+                  <Twitter className='ease-in-out duration-300 hover:scale-125'></Twitter>
+                </Link>
               </li>
             </ul>
           </li>

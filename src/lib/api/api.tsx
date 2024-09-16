@@ -8,3 +8,12 @@ export const LOGIN_MUTATION = gql`
     }
   }
 `;
+
+export const PROFILE = gql`
+  query {
+    myProfile {
+      name
+      avatar
+    }
+  }
+`;

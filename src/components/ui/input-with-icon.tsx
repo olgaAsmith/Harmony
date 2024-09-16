@@ -10,7 +10,7 @@ const InputWithIcon = React.forwardRef<HTMLInputElement, InputProps>(
   ({ className, type, ...props }, ref) => {
     return (
       <div className='flex items-center relative h-10 w-12 md:w-96 '>
-        <SearchIcon className="h-[16px] w-[16px] absolute top-[12px] left-[25px] md:left-[16px]" />
+        <SearchIcon className='h-[16px] w-[16px] absolute top-[12px] left-[25px] md:left-[16px]' />
         <input
           type={type}
           className={cn(

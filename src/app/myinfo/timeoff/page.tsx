@@ -4,7 +4,7 @@ import TimeOff from '@/components/timeOff/TimeOff';
 export default function TimeOffPage() {
   return (
     <MyInfoContent>
-      <TimeOff></TimeOff>
+        <TimeOff></TimeOff>
     </MyInfoContent>
   );
 }
