@@ -26,7 +26,7 @@ export default function MyInfoSelectMenu() {
             placeholder={<SettingsIcon className='w-4 h-4'></SettingsIcon>}
           />
         </SelectTrigger>
-        <SelectContent className='mr-[68px]'>
+        <SelectContent className='lg:mr-[15px] xl:mr-[68px]'>
           <SelectItem value='11'>
             <SettingsIcon className='w-4 h-4'></SettingsIcon>
           </SelectItem>
